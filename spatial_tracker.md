@@ -5,3 +5,12 @@
   - optical flow only produces motion for adjacent frames & feature tracking only tracks sparse pixels
 - Goal: dense and long-range pixel trajectories in a video
 - Proposal: Lift 2D pixels into 3D and perform tracking in the 3D space
+
+
+## Method
+- Given a monocular video as input, our method tracks any given query pixels across the entire video. Different from prior methods that establish correspondences solely
+ in the 2D space, we lift pixels to 3D using an off-the shelf monocular depth estimator and perform tracking in a 3D space with richer and more spatially meaningful
+ 3D contextual information, thereby enhancing the overall tracking performance.
+
+## Key Takeaways
+-  a properly designed 3D representation is crucial for solving the long-standing challenge of dense and long-range motion estimation in videos.
