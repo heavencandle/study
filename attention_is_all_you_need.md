@@ -5,7 +5,10 @@
 - ![image](https://github.com/user-attachments/assets/73e19421-396c-4989-ae54-e7bd9670d6a8)
 1. Input to the Encoder
 2. Encoder
-3. 
+  1. Self-attention
+     - Self-attention is the method the Transformer uses to bake the “understanding” of other relevant words into the one we’re currently processing.    
+  3. Feed Forward
+4. 
 
 
 
