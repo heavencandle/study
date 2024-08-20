@@ -1,3 +1,29 @@
+## Meta
+- **Theme**: SpatialTracker: Tracking Any 2D Pixels in 3D Space
+- **Author**: Yuxi Xiao, Qianqian Wang, Shangzhan Zhang, Nan Xue, Sida Peng, Yujun Shen, Xiaowei Zhou
+- **Published At**: CVPR 2024
+- **Keywords**: 2D tracking, 3D space, pixel motion, triplane, occlusion, motion tracking
+
+## 1. 연구질문 (Research Question)
+- **Trends and Limitations in Previous Research**: Traditional methods like optical flow and feature tracking struggle with complex 3D motions and occlusions.
+- **Necessity or Uniqueness of Research**: This study addresses these challenges by proposing a novel 3D-based tracking method that offers improved accuracy and robustness for long-range pixel tracking, even under occlusion.
+- **Research Question**: How can 2D pixels be tracked more effectively by lifting them into 3D space?
+
+## 2. 사용된 이론 및 방법론 (Theories and Methodologies Used)
+- **Theories Used**: 3D triplane representation, transformer-based iterative prediction, ARAP (As-Rigid-As-Possible) constraint.
+- **Research Method**: The method involves lifting 2D pixels into 3D using monocular depth estimation and employing a transformer-based framework to iteratively predict 3D trajectories.
+
+## 3. 논문 핵심 (Core of the Paper)
+- **Core Research**: SpatialTracker introduces a novel framework that tracks pixels in 3D space, leveraging triplane representations and ARAP constraints to improve long-range and occluded pixel tracking performance.
+
+## 4. 결론 및 논점 (Conclusion and Discussion)
+- **Research Significance and Limitations**: The method outperforms current state-of-the-art tracking models in several benchmarks, but future improvements could arise from advancements in monocular depth estimation models.
+
+
+
+
+
+
 # CVPR_2024_SpatialTracker_Tracking Any 2D Pixels in 3D Space
 
 ## Sumary
