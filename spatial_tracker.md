@@ -24,7 +24,6 @@
 
 
 
-# CVPR_2024_SpatialTracker_Tracking Any 2D Pixels in 3D Space
 
 ## Sumary
 - Motion estimation's two main paradigms: feature tracking, optical flow
