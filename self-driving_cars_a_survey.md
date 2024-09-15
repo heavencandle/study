@@ -12,6 +12,12 @@
       - camera-based: Point Feature based Localization(PFL), Lane Feature based Localization (LFL)
     - Offline Maps
     - Mapper
+      - Road Mapping
+        - Road mapper: responsible for managing information about roads and lanes.
+          - Metric Representations
+            - grid map: discretizes the environment into a matrix of fixed size cells that contain information about the roads. a wasteful use of memory space and processing time due to buildings, free space, etc
+          - Topological Representation
+          - 
     - MOT
     - TSD
   - Decision Making
