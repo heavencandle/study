@@ -1,3 +1,8 @@
+# Summary
+- Review and summary about self-driving technology
+- Good for grasp technology categories
+- Lack of depth and unavailable to tell which technology is SOTA, when to use the method, or what is the strength/weakness of it.
+  
 # Introduction
 - Society of Automotive Engineers (SAE)
 - the level of autonomy of a self-driving car: level 0 ~ 5
