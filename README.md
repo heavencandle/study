@@ -17,7 +17,7 @@
 
 | No. | Check | Article Name | Author | Organization | Published Year | Why it Matters | Key Contributions |
 |-----|-------|--------------|--------|--------------|----------------|----------------|-------------------|
-| 1   |   ⏳    | DETR: End-to-End Object Detection with Transformers (CVPR 2020) |  |  | 2020 | Introduces a transformer-based architecture that directly predicts bounding boxes and object classes without the need for traditional anchors or post-processing. |  |
+| 1   |   ✅    | DETR: End-to-End Object Detection with Transformers (CVPR 2020) |  |  | 2020 | Introduces a transformer-based architecture that directly predicts bounding boxes and object classes without the need for traditional anchors or post-processing. |  |
 | 2   |   ⏳    | BEVFormer: Learning Bird’s-Eye-View Representation from Multi-Camera Images (CVPR 2022) |  |  | 2022 | BEVFormer is crucial for tasks like autonomous navigation in dense urban environments, providing top-down perception of the environment. |  |
 | 3   |   ⏳    | PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection (CVPR 2020) |  |  | 2020 | Combines voxel-based and point-based methods for more accurate 3D detection using LiDAR data. |  |
 | 4   |   ⏳    | SqueezeSegV3: Spatially-Adaptive Convolution for Efficient Point-Cloud Segmentation (ICRA 2020) |  |  | 2020 | A leading method in 3D point-cloud segmentation, optimized for real-time performance in autonomous vehicles. |  |
