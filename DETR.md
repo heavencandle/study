@@ -9,8 +9,8 @@
 # 1. 연구질문
 ## 선행 연구의 동향 및 한계
 -  modern detectors:
-  -  require a specialized library
-  -  need to define surrogate regression and classification problems on a large set of proposals, anchors, or window centers
+   - require a specialized library
+    -  need to define surrogate regression and classification problems on a large set of proposals, anchors, or window centers
 -  Set Prediction
 -  Transformers and Parallel Decoding
 -  Object detection
@@ -28,7 +28,7 @@
 # 3. 논문 핵심
 ## 연구 핵심
 - DETR:  a set-based global loss that forces unique predictions via bipartite matching, and a transformer encoder-decoder architecture
-  -  Two ingredients are essential for direct set predictions in detection: (1) a set prediction loss that forces unique matching between predicted and ground truth boxes; (2) an architecture that predicts (in a single pass) a set of objects and
+    -  Two ingredients are essential for direct set predictions in detection: (1) a set prediction loss that forces unique matching between predicted and ground truth boxes; (2) an architecture that predicts (in a single pass) a set of objects and
  models their relation
 
 # 4. 결론 및 논점
