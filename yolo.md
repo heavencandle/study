@@ -14,8 +14,16 @@
 
 ## 2. 기존 연구
 1. Object detection models
+- a modern detector
+    1. backbone (pretrained on ImageNet)
+    2. neck(some layers between backbone and ehad, and these layers are usually used to collect feature maps from different stages)
+    3. head (used to predict classes and bounding boxes of objects)
 2. Bag of freebies
+- Bag of freebies: Methods that can make the object detector receive better acuuracy **without increasing the inference cost**. They only change the training strategy or only icnrease the training cost.
+    1. Data augmanetation
+    2. Semanitc distribution bias
 3. Bag of specials
+- Bag of specials: plugin modules and post-processing methods that only **increase the inference cost** by a small amount but can significantly improve the acuracy of object detection.
 
 ## 3. 사용된 이론 및 방법론 (Theories and Methodologies Used)
 
