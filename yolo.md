@@ -21,8 +21,8 @@
     - `Bag of freebies`: Methods that can make the object detector receive better acuuracy **without increasing the inference cost**. They only change the training strategy or only icnrease the training cost.
         1. Data augmanetation
         2. Semanitc distribution bias
-3. `Bag of specials`
-    - Bag of specials: plugin modules and post-processing methods that only **increase the inference cost** by a small amount but can significantly improve the acuracy of object detection.
+3. Bag of specials
+    - `Bag of specials`: plugin modules and post-processing methods that only **increase the inference cost** by a small amount but can significantly improve the acuracy of object detection.
 
 ## 3. 사용된 이론 및 방법론 (Theories and Methodologies Used)
 - used new features: Weighted-Residual-Connections (WRC), Cross-Stage-Partial-connections(CSP),  Cross mini-Batch Normalization(CmBN), Self-adversarial-training(SAT), Mish activation, Mosaic data augmentation, CmBN, DropBlock regularization, and CIoU loss, and combine some of them to achieve state-of-the-art results
