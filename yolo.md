@@ -4,12 +4,9 @@
 - published at: 2020
 - keywords: computer vision,
 
-# Problem and solving
+# 1. Problem and solving
 - Problem: The most accurate modern neural networks do not operate in real time and require large number of GPUs for training with a large mini-batch-size.
 - Solving: address such problems through creating a CNN that operates in real-time on a conventional GPU, and for which training requires only one conventional GPU.
-
-## 1. 연구질문 (Research Question)
-- 
 
 ## 2. 기존 연구
 1. Object detection models
@@ -32,7 +29,8 @@
     - `Bag of specials`: plugin modules and post-processing methods that only **increase the inference cost** by a small amount but can significantly improve the acuracy of object detection.(e.g. enlarging receptive field, introducing attention mechanism, or strengthening feature integration capability etc.)
         1. enhanve receptive field: SPP ASPP, RFB
         2. attention module: **1)** channel-wise attention(representative: Squeeze-and-Excitation) and **2)** pointwise attention(representative: Spatical Attention Module)
-    - **Since enone of above post-processing methods directly refer to the captured image features, post-processing is no longer required in the subsequent development of an anchor-free method.**
+        3. good activation function: to make the gradient more efficiently propagated, and not to cause too muc extra computational cost.
+    - **Since none of above post-processing methods directly refer to the captured image features, post-processing is no longer required in the subsequent development of an anchor-free method.**
 
 ## 3. 사용된 이론 및 방법론 (Theories and Methodologies Used)
 - used new features: Weighted-Residual-Connections (WRC), Cross-Stage-Partial-connections(CSP),  Cross mini-Batch Normalization(CmBN), Self-adversarial-training(SAT), Mish activation, Mosaic data augmentation, CmBN, DropBlock regularization, and CIoU loss, and combine some of them to achieve state-of-the-art results
