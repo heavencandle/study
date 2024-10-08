@@ -26,6 +26,15 @@
 - 출처 : 인공지능신문(https://www.aitimes.kr)
 - https://jalammar.github.io/illustrated-transformer/
 
+## Attention Cheatsheet
+- Attention에 기대하는 것
+    1. context에 따라 의미가 다른 단어를 다르게 embed (context가 없다면 같은 embedding으로 처리될 것)
+    2. 한참 전에 언급된 단어와의 관련성도 파악할 수 있을 것
+- $$Attention(Q, K, V) = \frac{Softmax(QK^T)}{\sqrt(d_k)}V $$
+ - embedding photo
+ - key query photo
+ - value photo
+
 
 
 
