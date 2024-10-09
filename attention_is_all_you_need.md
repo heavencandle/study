@@ -25,6 +25,9 @@
 ## Reference
 - 출처 : 인공지능신문(https://www.aitimes.kr)
 - https://jalammar.github.io/illustrated-transformer/
+- https://www.youtube.com/watch?v=WCUNPb-5EYI
+- https://www.youtube.com/watch?v=UNmqTiOnRfg
+- https://www.youtube.com/watch?v=53YvP6gdD7U&t=335s
 
 ## Attention Cheatsheet
 - Attention에 기대하는 것
