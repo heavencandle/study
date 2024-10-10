@@ -1,16 +1,22 @@
 ## Summary
 - To imporove Seq2seq models ( Gradient 소실 문제 )
 
+## 기존 연구 / 선행지식
+- Seq2seq
+  - ![image](https://github.com/user-attachments/assets/73e19421-396c-4989-ae54-e7bd9670d6a8)
+- Attention
+
 ## Method
-- ![image](https://github.com/user-attachments/assets/73e19421-396c-4989-ae54-e7bd9670d6a8)
-1. Input to the Encoder
-2. Encoder
-  1. Self-attention
-     - Self-attention is the method the Transformer uses to bake the “understanding” of other relevant words into the one we’re currently processing.    
-  3. Feed Forward
-4. 
-
-
+- Transformer
+![image](https://github.com/user-attachments/assets/7e91691d-4960-4e04-af6d-88918e567e2c)
+- Attention
+    - Attention에 기대하는 것
+        1. context에 따라 의미가 다른 단어를 다르게 embed (context가 없다면 같은 embedding으로 처리될 것)
+        2. 한참 전에 언급된 단어와의 관련성도 파악할 수 있을 것
+    - $$Attention(Q, K, V) = \frac{Softmax(QK^T)}{\sqrt(d_k)}V $$
+    - embedding
+    - query/key
+    - value
 
 ## Misc.
 ​1. Calculating Similarity
@@ -28,16 +34,4 @@
 - https://www.youtube.com/watch?v=WCUNPb-5EYI
 - https://www.youtube.com/watch?v=UNmqTiOnRfg
 - https://www.youtube.com/watch?v=53YvP6gdD7U&t=335s
-
-## Attention Cheatsheet
-- Attention에 기대하는 것
-    1. context에 따라 의미가 다른 단어를 다르게 embed (context가 없다면 같은 embedding으로 처리될 것)
-    2. 한참 전에 언급된 단어와의 관련성도 파악할 수 있을 것
-- $$Attention(Q, K, V) = \frac{Softmax(QK^T)}{\sqrt(d_k)}V $$
- - embedding photo
- - key query photo
- - value photo
-
-
-
-
+- https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/
